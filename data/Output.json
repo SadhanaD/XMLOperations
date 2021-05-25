@@ -1,0 +1,149 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "utf-8"
+    },
+    "Organization": {
+        "@Name": "ABC Inc.",
+        "Employee": [
+            {
+                "@Title": "CEO",
+                "#text": "Colin Morrison"
+            },
+            {
+                "@Title": "CTO",
+                "#text": "Julian Kelly"
+            },
+            {
+                "@Title": "CFO",
+                "#text": "Blake Ellison"
+            }
+        ],
+        "Units": {
+            "Unit": [
+                {
+                    "@Name": "Product Management",
+                    "Employee": {
+                        "@Title": "Director",
+                        "#text": "Phil Davidson"
+                    },
+                    "Units": {
+                        "Unit": [
+                            {
+                                "@Name": "Product Managers",
+                                "Employee": [
+                                    {
+                                        "@Title": "Product Manger",
+                                        "#text": "Nicholas Butler"
+                                    },
+                                    {
+                                        "@Title": "Product Manger",
+                                        "#text": "William Glover"
+                                    }
+                                ]
+                            },
+                            {
+                                "@Name": "Technical Writers",
+                                "Employee": {
+                                    "@Title": "Technical Writer",
+                                    "#text": "Gavin Edmunds"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@Name": "R and D",
+                    "Employee": {
+                        "@Title": "Senior Manager",
+                        "#text": "Cameron Ogden"
+                    },
+                    "Units": {
+                        "#text": "-\r\n\t\t\t\t",
+                        "Unit": [
+                            {
+                                "@Name": "Development",
+                                "Employee": {
+                                    "@Title": "Manager",
+                                    "#text": "Oliver Butler"
+                                },
+                                "Units": {
+                                    "Unit": [
+                                        {
+                                            "@Name": "Platform Team",
+                                            "Employee": [
+                                                {
+                                                    "@Title": "Team Lead",
+                                                    "#text": "Victor Buckland"
+                                                },
+                                                {
+                                                    "@Title": "Developer",
+                                                    "#text": "Joe Piper"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@Name": "Maintenance Team",
+                                            "Employee": [
+                                                {
+                                                    "@Title": "Team Lead",
+                                                    "#text": "Thomas Payn"
+                                                },
+                                                {
+                                                    "@Title": "Front-end Developer",
+                                                    "#text": "Joseph White"
+                                                },
+                                                {
+                                                    "@Title": "Back-end Developer",
+                                                    "#text": "Connor Jones"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "@Name": "QA",
+                                "Employee": [
+                                    {
+                                        "@Title": "Manager",
+                                        "#text": "Tim Graham"
+                                    },
+                                    {
+                                        "@Title": "QA Business Analyst",
+                                        "#text": "Dominic Lyman"
+                                    },
+                                    {
+                                        "@Title": "QA Developer",
+                                        "#text": "Sean Simpson"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@Name": "IT And DevOps",
+                    "Employee": [
+                        {
+                            "@Title": "Manager",
+                            "#text": "Andrew Howard"
+                        },
+                        {
+                            "@Title": "System Administrator",
+                            "#text": "Joe Jones"
+                        },
+                        {
+                            "@Title": "DevOps",
+                            "#text": "Leonard Mathis"
+                        },
+                        {
+                            "@Title": "Security Analyst",
+                            "#text": "Christian Stewart"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
